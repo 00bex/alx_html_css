@@ -1,0 +1,367 @@
+body{
+  margin: 3rem;
+
+}
+.image_wrapper{
+    background-image: url("images/Object.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+
+
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+
+}
+header nav img {
+  height: 40px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+  font-size: 8px;
+}
+main section > div:first-child {
+  text-align: center;
+  
+}
+
+main h1 {
+  font-size: 6rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+.quotes{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  color: white;
+  font-size: 1.2rem;
+
+}
+.btn{
+     margin-top: 2rem;
+     text-align: center;
+     
+}
+.btn button{
+  padding: 0.8rem 2rem;
+  background-color: #c271ff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+
+
+}
+.btn button:hover{
+    background-color: #a552e8;
+}
+.purple{
+    color: #a552e8;
+}
+.pros h2 {
+  font-size: 23px;
+  color: white;
+  margin-bottom: 4rem;
+}
+.instructors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.instructor {
+  max-width: 200px;
+  text-align: center;
+}
+
+.instructor h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.1rem;
+}
+.instructor p {
+  font-size: 0.9rem;
+  
+}
+.tu {
+  display: flex;
+  background-color: #C271FF;
+  color: #fff;
+  align-items: center;
+  margin:  auto ;
+  justify-content: center;
+  height: 250px;
+  
+  
+  
+ 
+}
+
+.tu img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 4rem;
+  
+}
+.tu h3 { 
+ margin-left: 2.5rem;
+}
+
+.tu p {
+  margin-left: 2.5rem;
+}
+.popular-tutorials {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.popular-tutorials h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.tutorials {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 5rem;
+}
+.tutorial_card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.image_container {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.tutorial h3 {
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+.tutorial p {
+  color:grey
+}
+.play_thumbnail {
+    position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  margin: 1rem auto;
+  text-align: center;
+
+}
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+  cursor: pointer;
+  display: block;
+}
+
+.author, .rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 1rem 1rem 1rem;
+  
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.rating {
+  justify-content: space-between;
+}
+
+.membership {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: rgb(4, 4, 41);
+  
+}
+
+.membership h2 {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  color: rgb(193, 187, 187);
+}
+
+.membership .purple {
+  color: #C271FF;
+}
+
+.membership_options {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 3rem;
+}
+
+.option {
+   
+  width: 200px;
+  text-align: center;
+}
+
+.option img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.option h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: rgb(193, 187, 187);
+}
+
+.option p {
+  font-size: 0.95rem;
+  color: rgb(193, 187, 187);
+}
+
+.reg_button {
+  background-color: #C271FF;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.faq {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 4rem;
+  color: #071629;
+  margin-bottom: 5rem;
+  font-weight: lighter;
+}
+
+.faq_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.faq_column {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.faq_column h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #071629;
+}
+
+.faq_column div {
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: grey;
+}
+
+
+
+.footer {
+  background-color: #071629;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+   background-color: rgb(4, 4, 41);
+}
+
+.footer_brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer_brand img {
+  height: 40px;
+  position: absolute;
+  left: 200px;
+  margin-top: 7rem;
+}
+
+.social_icons {
+  position: absolute;
+  right : 350px;
+  gap: 6rem;
+  margin-top: 7rem;
+  border: #fff;
+
+  
+
+
+}
+.social_icons i {
+  color: white;
+  font-size: 1.7rem;
+  margin: 0 5px;
+  
+}
+
+.footer p {
+  font-size: 0.9rem;
+  margin-top: 8rem;
+  color: #bbb;
+}
+
+
+
