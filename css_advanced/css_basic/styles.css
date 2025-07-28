@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full height of viewport */
+  margin: 0;
+}
+
+/* main contains article and aside, laid out in a row */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* Takes available space between header and footer */
+}
+
+/* article takes 2 parts of the row */
+article {
+  flex: 2;
+  overflow-y: auto;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+/* aside takes 1 part of the row */
+aside {
+  flex: 1;
+  overflow-y: auto;
+
+  background-color: #eaeaea;
+}
+
+
+footer {
+  background-color: #a19696;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+section {
+  
+padding-top:3rem;
+}
+header {
+   background-color: #a19696;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
+}
+span{
+  color: red
+}
+
+
